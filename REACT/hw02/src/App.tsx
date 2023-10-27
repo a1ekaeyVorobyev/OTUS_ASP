@@ -54,6 +54,7 @@ function App() {
             <BrowserRouter>
               <MenuUser theme={theme}  updateTheme={updateTheme} />
               <Routes>
+                <Route path="" element={<AppMain name={theme} />} />
                 <Route path="/MyApp" element={<AppMain name={theme} />} />
                 <Route path="/Login" element={<AppLogin name={theme} />} />
                 <Route path="/ClearLocalStorage" element={<AppClearLocalStorage name={theme} />} />

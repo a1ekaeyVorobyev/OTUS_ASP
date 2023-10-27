@@ -1,0 +1,9 @@
+.OutputJSON {
+    background-color: black;
+    color: white;
+  }
+
+  .OutputErrorJSON {
+    color: red;
+    background-color: white;
+  }

@@ -1,0 +1,16 @@
+.MyInput{
+    font-size: 40px;
+    margin: 5px;
+    padding: 5px;
+    border: black;
+    background: lightgrey;
+    color:black;
+}
+input {
+    margin: 5px;
+    padding: 5px 15px;
+    width: 40%;
+    font-size: 30px;
+    color:black;
+    text-align: center;
+  }
