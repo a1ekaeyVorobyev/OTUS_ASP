@@ -16,8 +16,10 @@ import {
   defaultAuth,
   useAuthContext,
 } from "./Hooks/useAuthContext";
+
 import { ThemeContext, defaultState, useThemeContext } from "./Hooks/useThemeContext";
 import { useAuth } from "./Hooks/useAuth";
+import ListArticle from "./Components/ListArticle";
 
 // export const ThemeContext = createContext<string>('');
 
@@ -57,6 +59,7 @@ function App() {
                 <Route path="" element={<AppMain name={theme} />} />
                 <Route path="/MyApp" element={<AppMain name={theme} />} />
                 <Route path="/Login" element={<AppLogin name={theme} />} />
+                <Route path="/Article" element={<ListArticle name={theme}/>} />
                 <Route path="/ClearLocalStorage" element={<AppClearLocalStorage name={theme} />} />
                 <Route path="/About" element={<AppAbout name={theme} />} />
                 <Route path="/Registration" element={<AppReg name={theme} />} />

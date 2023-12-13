@@ -7,10 +7,10 @@ interface Props{
     onChange:(event: React.ChangeEvent<HTMLInputElement>)=>void
 }
 
-const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    //setValueURL(event.target.value);
-    console.log(event.target.value);
-  };
+// const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+//     //setValueURL(event.target.value);
+//     console.log(event.target.value);
+//   };
 
 export class MyInput extends Component<Props> {
   
@@ -21,7 +21,7 @@ export class MyInput extends Component<Props> {
         return (
             <div className="MyInput">
               <label htmlFor="myInput">Input Url: </label>
-              <input name="myInput"  onChange={this.props.onChange}  width={300}/>
+              <input name="myInput" defaultValue={"https://catfact.ninja/fact"} onChange={this.props.onChange}  width={300}/>
             </div>
           );
     }

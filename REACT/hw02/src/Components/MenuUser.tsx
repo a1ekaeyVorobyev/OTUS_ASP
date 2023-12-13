@@ -40,6 +40,7 @@ const listMenu: tMenu[] = [
   { name: "/ClearLocalStorage", linkComp: "ClearLocalStorage" },
   { name: "/Error", linkComp: "Error" },
   { name: "/Login", linkComp: "Login" },
+  { name: "/Article", linkComp: "Article" },
   { name: "/About", linkComp: "About" },
 ];
 

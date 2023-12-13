@@ -14,11 +14,15 @@ function App() {
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSiteName(event.target.value);
-    console.log(event.target.value);
+    //console.log(event.target.value);
   };
+ 
 
+  const [buttonStatus, setbuttonStatus] = useState<string>("");
   const getJSON = () => {
     //"https://catfact.ninja/fact"
+    //alert(siteName);
+    //setbuttonStatus( "push");
     axios
       .get(siteName)
       .then((res) => {
@@ -34,8 +38,8 @@ function App() {
       });
   };
 
-  const [siteName, setSiteName] = useState<ContextType["siteName"]>("");
-
+  //const [siteName, setSiteName] = useState<ContextType["siteName"]>("");
+  const [siteName, setSiteName] = useState<string>("https://catfact.ninja/fact");
   return (
     <div className="App">
       <MyInput onChange={handleChange} />

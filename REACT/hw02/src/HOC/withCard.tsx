@@ -7,12 +7,7 @@ import NotFound from "../Components/NotFound";
 import Login from "../Components/Login";
 import Registration from "../Components/Registration";
 import ClearLocalStorage from "../Components/ClearLocalStorage";
-
-
-interface iTheme{
-    name: string
-}
-
+import { iTheme } from "../Interfaces/iTheme";
 
 interface AwaysCoolStateProps {
   text?: string;
