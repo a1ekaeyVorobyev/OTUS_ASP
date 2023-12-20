@@ -8,10 +8,12 @@ import { OutputJSON, OutputErrorJSON } from "./Components/OutputJSON";
 
 const { useState } = React;
 
+
 function App() {
   const [textJSON, setTextJSON] = useState<Array<string>>([]);
   const [errorJson, setErrorJson] = useState<string>("");
-
+  const site = process.env.REACT_APP_DOMAIN||"empty";
+  
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSiteName(event.target.value);
     //console.log(event.target.value);
@@ -73,11 +75,13 @@ function App() {
 
   };
 
-  //const [siteName, setSiteName] = useState<ContextType["siteName"]>("");
-  const [siteName, setSiteName] = useState<string>("http://localhost:8080/WeatherForecast");
+  //const [siteName, setSiteName] = useState<ContextType["siteName"]>(""); 
+  const [siteName, setSiteName] = useState<string>(site);
   return (
+  
     <div className="App">
-      <MyInput onChange={handleChange} />
+      <div>{site}</div>
+      <MyInput site={site} onChange={handleChange} />
       <ButtonGetUrl getJSON={getJSON} />
       <OutputJSON textJSON={textJSON} />
       <OutputErrorJSON errorJson={errorJson} />

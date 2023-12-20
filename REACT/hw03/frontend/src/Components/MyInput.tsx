@@ -4,6 +4,7 @@ import { TextChangeRange } from "typescript";
 import  { ChangeEvent } from 'react';
 
 interface Props{
+    site:string
     onChange:(event: React.ChangeEvent<HTMLInputElement>)=>void
 }
 
@@ -21,7 +22,7 @@ export class MyInput extends Component<Props> {
         return (
             <div className="MyInput">
               <label htmlFor="myInput">Input Url: </label>
-              <input name="myInput" defaultValue={"http://localhost:8080/WeatherForecast"} onChange={this.props.onChange}  width={300}/>
+              <input name="myInput" defaultValue={this.props.site} onChange={this.props.onChange}  width={300}/>
             </div>
           );
     }
