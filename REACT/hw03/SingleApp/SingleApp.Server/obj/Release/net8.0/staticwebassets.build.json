@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "kk7kALGXGd6mfRYoz+GaGwyxr+Pd9X7wNXX6StzhzCo=",
+  "Source": "SingleApp.Server",
+  "BasePath": "_content/SingleApp.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\temp\\OTUS_ASP\\hpmework14\\SingleApp\\singleapp.client\\singleapp.client.esproj",
+      "Version": 2,
+      "Source": "singleapp.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\temp\\OTUS_ASP\\hpmework14\\SingleApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8591CE14-20E9-4384-8CA8-C2B5E5FF99DE}|SingleApp.Server\\SingleApp.Server.csproj|c:\\temp\\otus_asp\\hpmework14\\singleapp\\singleapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8591CE14-20E9-4384-8CA8-C2B5E5FF99DE}|SingleApp.Server\\SingleApp.Server.csproj|solutionrelative:singleapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5088575-328E-458A-BC3B-1CD5385D4C0D}|singleapp.client\\singleapp.client.esproj|c:\\temp\\otus_asp\\hpmework14\\singleapp\\singleapp.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C5088575-328E-458A-BC3B-1CD5385D4C0D}|singleapp.client\\singleapp.client.esproj|solutionrelative:singleapp.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5088575-328E-458A-BC3B-1CD5385D4C0D}|singleapp.client\\singleapp.client.esproj|c:\\temp\\otus_asp\\hpmework14\\singleapp\\singleapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C5088575-328E-458A-BC3B-1CD5385D4C0D}|singleapp.client\\singleapp.client.esproj|solutionrelative:singleapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8591CE14-20E9-4384-8CA8-C2B5E5FF99DE}|SingleApp.Server\\SingleApp.Server.csproj|c:\\temp\\otus_asp\\hpmework14\\singleapp\\singleapp.server\\singleapp.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8591CE14-20E9-4384-8CA8-C2B5E5FF99DE}|SingleApp.Server\\SingleApp.Server.csproj|solutionrelative:singleapp.server\\singleapp.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.tsx",
+              "DocumentMoniker": "C:\\temp\\OTUS_ASP\\hpmework14\\SingleApp\\singleapp.client\\src\\App.tsx",
+              "RelativeDocumentMoniker": "singleapp.client\\src\\App.tsx",
+              "ToolTip": "C:\\temp\\OTUS_ASP\\hpmework14\\SingleApp\\singleapp.client\\src\\App.tsx",
+              "RelativeToolTip": "singleapp.client\\src\\App.tsx",
+              "ViewState": "AQIAABgAAAAANTMzMzMJwDUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2023-12-24T19:39:04.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\temp\\OTUS_ASP\\hpmework14\\SingleApp\\singleapp.client\\src\\App.css",
+              "RelativeDocumentMoniker": "singleapp.client\\src\\App.css",
+              "ToolTip": "C:\\temp\\OTUS_ASP\\hpmework14\\SingleApp\\singleapp.client\\src\\App.css",
+              "RelativeToolTip": "singleapp.client\\src\\App.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2023-12-24T19:39:02.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\temp\\OTUS_ASP\\hpmework14\\SingleApp\\SingleApp.Server\\Program.cs",
+              "RelativeDocumentMoniker": "SingleApp.Server\\Program.cs",
+              "ToolTip": "C:\\temp\\OTUS_ASP\\hpmework14\\SingleApp\\SingleApp.Server\\Program.cs",
+              "RelativeToolTip": "SingleApp.Server\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAzczMzMwHwA4AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-24T19:37:38.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SingleApp.Server.http",
+              "DocumentMoniker": "C:\\temp\\OTUS_ASP\\hpmework14\\SingleApp\\SingleApp.Server\\SingleApp.Server.http",
+              "RelativeDocumentMoniker": "SingleApp.Server\\SingleApp.Server.http",
+              "ToolTip": "C:\\temp\\OTUS_ASP\\hpmework14\\SingleApp\\SingleApp.Server\\SingleApp.Server.http",
+              "RelativeToolTip": "SingleApp.Server\\SingleApp.Server.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2023-12-24T19:36:45.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

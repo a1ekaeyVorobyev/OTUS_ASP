@@ -2,6 +2,18 @@
 
 services:
 
+services:
+  backend:
+    container_name: backend
+    build:
+      context: ./BackEnd
+      dockerfile: Dockerfile
+    image: backend:latest
+    ports:
+      - 8080:8080
+      - 8081:8081
+  
+
   frontend:
     container_name: frontend
     build:
